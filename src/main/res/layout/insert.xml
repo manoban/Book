@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TableLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="新增单词"
+        android:id="@+id/textView"/>
+
+</TableRow>
+
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="单词"
+        android:id="@+id/t33"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="Name"
+        android:id="@+id/txtWord"
+        android:inputType="textPersonName"
+        android:ems="10"/>
+
+</TableRow>
+
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="含义"
+        android:id="@+id/textView3"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="Name"
+        android:id="@+id/txtMeaning"
+        android:inputType="textPersonName"
+        android:ems="10"/>
+
+</TableRow>
+
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="示例"
+        android:id="@+id/t12"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="Name"
+        android:id="@+id/txtSample"
+        android:inputType="textPersonName"
+        android:ems="10"/>
+
+</TableRow>
+
+</TableLayout>
